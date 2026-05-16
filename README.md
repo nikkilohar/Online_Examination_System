@@ -3,34 +3,36 @@
 
 # Features 🎓
 
-* **User Authentication:** Secure login for Admin, Faculty, and Student roles.
-* **Exam Creation:** Admins and teachers can create and manage exams and questions.
-* **Question Bank:** Stores multiple-choice, true/false, and short-answer questions with automatic evaluation.
-* **Student Panel:** Allows students to register, log in, and appear for exams online.
-* **Automatic Evaluation:** Instantly evaluates objective-type questions and generates results.
-* **Result Management:** Displays marks, generates performance reports, and maintains a result database.
-* **Timer Functionality:** Conducts time-bound tests with countdown alerts.
-* **Security Features:** Password encryption, session control, and role-based access.
-* **Responsive Interface:** Easy-to-use design using JSP, HTML, CSS, and JavaScript.
+Predicts student academic performance using Machine Learning
+Data analysis and visualization using Pandas and NumPy
+Multiple ML algorithms implementation:
+ - Linear Regression
+ - Decision Tree Regressor
+ - Random Forest Regressor
+Model evaluation and accuracy comparison
+Data preprocessing and feature engineering
+User-friendly and beginner-friendly project structure
 
 # Technologies Used 💻
 
-* **Java (JSP & Servlets):** Backend development for handling logic, authentication, and exam management.
-* **MySQL:** Database for storing questions, users, exams, and results.
-* **HTML & CSS:** Used for structuring and styling the web interface.
-* **JavaScript:** Enables form validation, timers, and dynamic interactivity.
-* **JDBC (Java Database Connectivity):** Connects the Java application to the MySQL database.
-* **Bootstrap:** For responsive design and clean layout.
+Programming Language: Python
+Libraries & Frameworks:
+ - Pandas
+ - NumPy
+ - Scikit-learn
+ - Matplotlib
+ - Seaborn
+ - Jupyter Notebook
 
 # Installation ⚙️
 
-1. Install **XAMPP** or any local server with **Apache** and **MySQL**.
-2. Install **JDK (Java Development Kit)** and an IDE such as Eclipse or NetBeans.
-3. Download the ZIP file named **"Online_Examination_System"**.
-4. Extract the ZIP file using **WinRAR** or any extraction tool.
-5. Import the project into your IDE (Eclipse/NetBeans).
-6. Import the **database.sql** file from the SQL folder to set up tables.
-7. Update your **database connection credentials** (username, password) in the Java configuration file.
-8. Run Apache and MySQL services.
-9. Deploy and run the project from your IDE.
-10. Open your browser and visit **[http://localhost:8080/Online_Examination_System](http://localhost:8080/Online_Examination_System)** to access the system.
+1️⃣ Clone the Repository
+git clone https://github.com/your-username/Student_Performance_Predictor.git
+2️⃣ Navigate to Project Folder
+cd Student_Performance_Predictor
+3️⃣ Install Required Libraries
+pip install -r requirements.txt
+4️⃣ Run the Project
+python app.py
+or open the Jupyter Notebook:
+jupyter notebook
